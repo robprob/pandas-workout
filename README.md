@@ -6,4 +6,8 @@ While completing this book, I focused on finding unique or efficient solutions t
 
 For example, in Exercise 13, header=None is not used when reading in the nyc-temps.txt file, causing a row of data to be lost. In Exercise 30, pd.cut() cannot be used to categorize trip length, as it was specified that the "medium" category should be inclusive at both ends. I instead chose to create a function that correctly categorized the series using the .apply() method.
 
-# My biggest takeaways
+# What I learned
+As previously stated, this book was incredibly helpful in improving my pandas skillset. Here are some of my biggest takeaways:
+- Because it takes a slice of the column, .loc cannot be used to change the datatypes of a column, although it throws an error when setting the new values. 
+- There are many ways to easily save large amounts of memory while ensuring data is not lost. These include using pd.to_numeric with downcast, changing to a categorical dtype, or loading rows in smaller chunks to get a better idea of how to efficiently handle a large dataset.
+- 
