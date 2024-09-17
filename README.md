@@ -1,4 +1,4 @@
-# Pandas Workout (my solutions)
+# Pandas Workout (My Solutions)
 <a href='https://www.manning.com/books/pandas-workout'><i>Pandas Workout</i></a> by Reuven Lerner contains over 200 data analytics exercises based around the Python library, pandas. Starting from the very basics to more advanced topics, I completed every exercise in this >400 page book. I can confidently say this book/project has been a phenomenal resources in helping me demonstrate and improve upon my data processing and analytical skills and for that I am very grateful!
 
 # My focus
